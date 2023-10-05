@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script:wght@500&family=Jost:ital@1&family=Manrope:wght@200&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300&family=Quicksand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-image: url(https://wallpapercave.com/wp/wp5480474.jpg);
+}
+
+h1 {
+    margin: 2%;
+    color: rgb(52, 92, 126);
+    font-weight: 1000;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+.home p {
+    margin-top: 17%;
+    margin-left: 11.5%;
+    margin-right: 15%;
+    font-size: 23px;
+    padding-right: 10%;
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: rgb(20, 164, 78);
+}
+
+
+@media only screen and (max-width:600px) {
+
+    h1 {
+        margin: 2%;
+        color: rgb(52, 92, 126);
+        font-weight: 1000;
+        font-size: 100%;
+    }
+
+    .home p {
+        margin-top: 30%;
+        margin-left: 11.5%;
+        margin-right: 15%;
+        font-size: 100%;
+        padding-right: 10%;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 105 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+}
+
+@media only screen and (min-width:601) {
+    h1 {
+        margin: 2%;
+        color: rgb(52, 92, 126);
+        font-weight: 1000;
+        font-size: 100%;
+    }
+
+    .home p {
+        margin-top: 30%;
+        margin-left: 11.5%;
+        margin-right: 15%;
+        font-size: 100%;
+        padding-right: 10%;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 105 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+}
+
+
+@media only screen and (min-width:768) {
+    h1 {
+        margin: 2%;
+        color: rgb(52, 92, 126);
+        font-weight: 1000;
+        font-size: 100%;
+    }
+
+    .home p {
+        margin-top: 30%;
+        margin-left: 11.5%;
+        margin-right: 15%;
+        font-size: 100%;
+        padding-right: 10%;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 105 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+}
+
+@media only screen and (min-width:992) {
+    h1 {
+        margin: 2%;
+        color: rgb(52, 92, 126);
+        font-weight: 1000;
+        font-size: 100%;
+    }
+
+    .home p {
+        margin-top: 30%;
+        margin-left: 11.5%;
+        margin-right: 15%;
+        font-size: 100%;
+        padding-right: 10%;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 105 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+
+}
